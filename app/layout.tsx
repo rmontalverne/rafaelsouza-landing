@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Rafael Souza | Landing Profissional",
-  description: "Cartao de visitas profissional de Rafael Souza.",
+  title: "Rafael Souza | Professional Landing Page",
+  description: "Professional business card landing page by Rafael Souza.",
 };
 
 export default function RootLayout({
@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="pt-BR"
+      lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
